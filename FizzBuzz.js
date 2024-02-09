@@ -1,3 +1,4 @@
+function FizzBuzz(){
 let i = 1;
 while (i < 101) {
     if(i % 15 == 0){
@@ -14,3 +15,5 @@ while (i < 101) {
     }
     i++;
 }
+}
+FizzBuzz();
